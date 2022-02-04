@@ -110,27 +110,7 @@ public class MainActivity extends AppCompatActivity {
         BT_Egal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mValueTwo = Float.parseFloat(txt_calculTemp.getText() + "");
 
-                if (crunchifyAddition = true) {
-                    txt_calculTemp.setText(mValueOne + mValueTwo + "");
-                    crunchifyAddition = false;
-                }
-
-                if (mSubtract = true) {
-                    txt_calculTemp.setText(mValueOne - mValueTwo + "");
-                    mSubtract = false;
-                }
-
-                if (crunchifyMultiplication = true) {
-                    txt_calculTemp.setText(mValueOne * mValueTwo + "");
-                    crunchifyMultiplication = false;
-                }
-
-                if (crunchifyDivision = true) {
-                    txt_calculTemp.setText(mValueOne / mValueTwo + "");
-                    crunchifyDivision = false;
-                }
             }
         });
 
